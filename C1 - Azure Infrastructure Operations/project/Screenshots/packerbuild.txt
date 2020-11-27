@@ -1,0 +1,65 @@
+azure-arm: output will be in this color.
+
+==> azure-arm: Running builder ...
+==> azure-arm: Getting tokens using client secret
+==> azure-arm: Getting tokens using client secret
+    azure-arm: Creating Azure Resource Manager (ARM) client ...
+==> azure-arm: WARNING: Zone resiliency may not be supported in East US, checkout the docs at https://docs.microsoft.com/en-us/azure/availability-zones/
+==> azure-arm: Creating resource group ...
+==> azure-arm:  -> ResourceGroupName : 'pkr-Resource-Group-xytdqe4svm'
+==> azure-arm:  -> Location          : 'East US'
+==> azure-arm:  -> Tags              :
+==> azure-arm:  ->> task : Image deployment
+==> azure-arm:  ->> tagging-policy : tagging-policy
+==> azure-arm:  ->> tagName : webserver
+==> azure-arm: Validating deployment template ...
+==> azure-arm:  -> ResourceGroupName : 'pkr-Resource-Group-xytdqe4svm'
+==> azure-arm:  -> DeploymentName    : 'pkrdpxytdqe4svm'
+==> azure-arm: Deploying deployment template ...
+==> azure-arm:  -> ResourceGroupName : 'pkr-Resource-Group-xytdqe4svm'
+==> azure-arm:  -> DeploymentName    : 'pkrdpxytdqe4svm'
+==> azure-arm:
+==> azure-arm: Getting the VM's IP address ...
+==> azure-arm:  -> ResourceGroupName   : 'pkr-Resource-Group-xytdqe4svm'
+==> azure-arm:  -> PublicIPAddressName : 'pkripxytdqe4svm'
+==> azure-arm:  -> NicName             : 'pkrnixytdqe4svm'
+==> azure-arm:  -> Network Connection  : 'PublicEndpoint'
+==> azure-arm:  -> IP Address          : '52.188.58.211'
+==> azure-arm: Waiting for SSH to become available...
+==> azure-arm: Connected to SSH!
+==> azure-arm: Provisioning with shell script: /tmp/packer-shell839576222
+==> azure-arm: + echo Hello, World!
+==> azure-arm: + nohup busybox httpd -f -p 80
+==> azure-arm: Querying the machine's properties ...
+==> azure-arm:  -> ResourceGroupName : 'pkr-Resource-Group-xytdqe4svm'
+==> azure-arm:  -> ComputeName       : 'pkrvmxytdqe4svm'
+==> azure-arm:  -> Managed OS Disk   : '/subscriptions/<sensitive>/resourceGroups/pkr-Resource-Group-xytdqe4svm/providers/Microsoft.Compute/disks/pkrosxytdqe4svm'
+==> azure-arm: Querying the machine's additional disks properties ...
+==> azure-arm:  -> ResourceGroupName : 'pkr-Resource-Group-xytdqe4svm'
+==> azure-arm:  -> ComputeName       : 'pkrvmxytdqe4svm'
+==> azure-arm: Powering off machine ...
+==> azure-arm:  -> ResourceGroupName : 'pkr-Resource-Group-xytdqe4svm'
+==> azure-arm:  -> ComputeName       : 'pkrvmxytdqe4svm'
+==> azure-arm: Capturing image ...
+==> azure-arm:  -> Compute ResourceGroupName : 'pkr-Resource-Group-xytdqe4svm'
+==> azure-arm:  -> Compute Name              : 'pkrvmxytdqe4svm'
+==> azure-arm:  -> Compute Location          : 'East US'
+==> azure-arm:  -> Image ResourceGroupName   : 'udacityProj'
+==> azure-arm:  -> Image Name                : 'udPackerImage'
+==> azure-arm:  -> Image Location            : 'East US'
+==> azure-arm: Removing the created Deployment object: 'pkrdpxytdqe4svm'
+==> azure-arm: 
+==> azure-arm: Cleanup requested, deleting resource group ...
+==> azure-arm: Resource group has been deleted.
+Build 'azure-arm' finished after 8 minutes 39 seconds.
+
+==> Wait completed after 8 minutes 39 seconds
+
+==> Builds finished. The artifacts of successful builds are:
+--> azure-arm: Azure.ResourceManagement.VMImage:
+
+OSType: Linux
+ManagedImageResourceGroupName: udacityProj
+ManagedImageName: udPackerImage
+ManagedImageId: /subscriptions/<sensitive>/resourceGroups/udacityProj/providers/Microsoft.Compute/images/udPackerImage
+ManagedImageLocation: East US

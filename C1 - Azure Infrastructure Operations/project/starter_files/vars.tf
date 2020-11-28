@@ -31,5 +31,6 @@ variable "vm_count" {
 }
 
 variable "imageid" {
-    description = "Enter the ID of the Packer Image created."
+  description = "The ID of the Packer Image created."
+  default     = "udPackerImage"
 }

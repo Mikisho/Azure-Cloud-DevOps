@@ -164,17 +164,11 @@ resource "azurerm_linux_virtual_machine" "udclass" {
     azurerm_network_interface.udNic[count.index].id,
   ]
 
-  source_image_reference {
-    publisher = "Canonical"
-    offer     = "UbuntuServer"
-    sku       = "18.04-LTS"
-    version   = "latest"
-  }
+   source_image_id = var.imageid
 
   os_disk {
     storage_account_type = "Standard_LRS"
     caching              = "ReadWrite"
   }
-
 
 }

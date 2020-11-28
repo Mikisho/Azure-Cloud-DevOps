@@ -29,3 +29,7 @@ variable "vm_count" {
   description = "The number of virtual machines to create"
   default     = 2
 }
+
+variable "imageid" {
+    description = "Enter the ID of the Packer Image created."
+}

@@ -1,5 +1,7 @@
 # Overview
 
+[![Build Status](https://dev.azure.com/mikiye-24/Flask-App-Deploy/_apis/build/status/Mikisho.Azure-Cloud-DevOps?branchName=master)](https://dev.azure.com/mikiye-24/Flask-App-Deploy/_build/latest?definitionId=2&branchName=master)
+
 <TODO: complete this with an overview of your project>
 
 ## Project Plan

@@ -18,7 +18,7 @@ prices wad deployed using Azure DevOps pipeline.
 
 * Architectural Diagram  
   
-  ![Architectural Diagram img file](Screenshots/Arch-Diag.JPG)
+  ![Architectural Diagram img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/Arch-Diag.JPG)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
@@ -30,7 +30,7 @@ prices wad deployed using Azure DevOps pipeline.
 
 * You will get the following output
   
-  ![Docker output img file](Screenshots/run_docker_local.JPG)
+  ![Docker output img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/run_docker_local.JPG)
 
 * Once you get this output open a new terminal and go to app path: `Azure-Cloud-DevOps\C2-AgileDevelopmentwithAzure\project\starter_files\flask-sklearn`
 
@@ -38,21 +38,21 @@ prices wad deployed using Azure DevOps pipeline.
 
 * You will get the following output
 
-  ![local prediction img file](Screenshots/local_predic_output.JPG)
+  ![local prediction img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/local_predic_output.JPG)
 
 ## Azure DevOps Pipeline
 
 * Project running on Azure App Service
 
-  ![Azure App service img file](Screenshots/AZ_deployed-app.JPG)
+  ![Azure App service img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/AZ_deployed-app.JPG)
 
 * Project cloned into Azure Cloud Shell
 
-  ![Cloudshell img file](Screenshots/Cloned_AZ_cloudshell.JPG)
+  ![Cloudshell img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/Cloned_AZ_cloudshell.JPG)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
-  ![Passing tests img file](Screenshots/Make_passed.JPG)
+  ![Passing tests img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/Make_passed.JPG)
 
 * Output of a test run
   
@@ -61,12 +61,12 @@ prices wad deployed using Azure DevOps pipeline.
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
-  ![Azureapp img file](Screenshots/Az_CI-CD_Working.JPG)
+  ![Azureapp img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/AZ_CI-CD_Working.JPG)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/Mikisho/Azure-Cloud-DevOps/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearnmake_predict_azure_app.sh).
 The output should look similar to this:
 
-  ![prediction output img file](Screenshots/predict_app.jpg)
+  ![prediction output img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/predict_app.JPG)
 
 
 * Output of streamed log files from deployed application

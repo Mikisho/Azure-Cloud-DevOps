@@ -59,10 +59,13 @@ prices wad deployed using Azure DevOps pipeline.
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 * Running Azure App Service from Azure Pipelines automatic deployment
+  
+  ![Azureapp img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/AZ_CI-CD_Working.JPG)
 
   ![Azureapp img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/AZ_CI-CD_Working.JPG)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/Mikisho/Azure-Cloud-DevOps/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearnmake_predict_azure_app.sh).
+
 The output should look similar to this:
 
   ![prediction output img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/predict_app.JPG)
@@ -76,7 +79,8 @@ The output should look similar to this:
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+ * This project could be enhanced to have a FrontEnd web app to allow users make the prediction easily and interactively in GUI environment.
+ * The project could implment kuberentes to make Blue/Green deployments.
 
 ## Demo 
 

@@ -20,7 +20,6 @@ prices wad deployed using Azure DevOps pipeline.
   
   ![Architectural Diagram img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/Arch-Diag.JPG)
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 ### Running the App Locally using Docker
 

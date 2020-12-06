@@ -59,10 +59,10 @@ prices wad deployed using Azure DevOps pipeline.
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 * Running Azure App Service from Azure Pipelines automatic deployment
-  
-  ![Azureapp img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/AZ_CI-CD_Working.JPG)
 
-  ![Azureapp img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/AZ_CI-CD_Working.JPG)
+  ![Azure app img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/AZ_CI-CD_Working.JPG)
+  
+  ![Azure app service img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/az_app_srv.jpg)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/Mikisho/Azure-Cloud-DevOps/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearnmake_predict_azure_app.sh).
 

@@ -1,44 +1,77 @@
 # Overview
+<br />
+
+This is a Project to full fill a DevOps Engineer for Microsoft Azure - Udacity Nano Degree Program. In this project a web service that uses ML model to predict Boston house
+prices wad deployed using Azure DevOps pipeline.
 
 [![Build Status](https://dev.azure.com/mikiye-24/Flask-App-Deploy/_apis/build/status/Mikisho.Azure-Cloud-DevOps?branchName=master)](https://dev.azure.com/mikiye-24/Flask-App-Deploy/_build/latest?definitionId=2&branchName=master)
 
-<TODO: complete this with an overview of your project>
-
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* A link to a Trello board for the project:
+  https://trello.com/b/gf5RQZPp/agile-sprint-board
+
+* A link to a spreadsheet that includes the original and final project plan:
+  https://docs.google.com/spreadsheets/d/1i-65rF7W7J3e0yg0FJB9fBvrFL1WQMbj2DClCh8Gq7Y/edit#gid=0
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+* Architectural Diagram  
+  
+  ![Architectural Diagram img file](Screenshots/Arch-Diag.JPG)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
+### Running the App Locally using Docker
+
+* Docker needs to be installed to run the app
+* Go to the app path: `Azure-Cloud-DevOps\C2-AgileDevelopmentwithAzure\project\starter_files\flask-sklearn`
+* Run `./run_docker.sh`
+
+* You will get the following output
+  
+  ![Docker output img file](Screenshots/run_docker_local.JPG)
+
+* Once you get this output open a new terminal and go to app path: `Azure-Cloud-DevOps\C2-AgileDevelopmentwithAzure\project\starter_files\flask-sklearn`
+
+* Run `./make_prediction.sh`
+
+* You will get the following output
+
+  ![local prediction img file](Screenshots/local_predic_output.JPG)
+
+## Azure DevOps Pipeline
+
 * Project running on Azure App Service
+
+  ![Azure App service img file](Screenshots/AZ_deployed-app.JPG)
 
 * Project cloned into Azure Cloud Shell
 
+  ![Cloudshell img file](Screenshots/Cloned_AZ_cloudshell.JPG)
+
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
+  ![Passing tests img file](Screenshots/Make_passed.JPG)
+
 * Output of a test run
+  
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
+  ![Azureapp img file](Screenshots/Az_CI-CD_Working.JPG)
+
+* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/Mikisho/Azure-Cloud-DevOps/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearnmake_predict_azure_app.sh).
 The output should look similar to this:
 
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+  ![prediction output img file](Screenshots/predict_app.jpg)
+
 
 * Output of streamed log files from deployed application
+
+  ![log output img file](Screenshots/log_output.JPG)
 
 > 
 

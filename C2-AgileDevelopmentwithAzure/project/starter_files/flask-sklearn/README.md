@@ -71,7 +71,7 @@ The output should look similar to this:
 
 * Output of streamed log files from deployed application
 
-  ![log output img file](Screenshots/log_output.JPG)
+  ![log output img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/log_output.JPG)
 
 > 
 

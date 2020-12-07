@@ -9,10 +9,10 @@ prices wad deployed using Azure DevOps pipeline.
 ## Project Plan
 
 * A link to a Trello board for the project:
-  ![Trello](https://trello.com/b/gf5RQZPp/agile-sprint-board)
+  [Trello](https://trello.com/b/gf5RQZPp/agile-sprint-board)
 
 * A link to a spreadsheet that includes the original and final project plan:
-  ![Project Plan](https://docs.google.com/spreadsheets/d/1JMbR5cmye8XyPwfbg2ydMEZYX0jMyvn5m94iNt_lleM/edit?usp=sharing)
+  [Project Plan](https://docs.google.com/spreadsheets/d/1JMbR5cmye8XyPwfbg2ydMEZYX0jMyvn5m94iNt_lleM/edit?usp=sharing)
 
 ## Instructions
 

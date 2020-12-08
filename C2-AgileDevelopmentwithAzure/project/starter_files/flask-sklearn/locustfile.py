@@ -1,6 +1,6 @@
 from locust import HttpUser, TaskSet, task
 
-class AppService(HttpUser):
+class AppService(TaskSet):
     @task
     def get_home_page(self):
         self.client.get("/")
@@ -12,5 +12,5 @@ class AppService(HttpUser):
 class AppLocust(HttpUser):
     task_set = AppService
 
-    min_wait = 1000
-    max_wait = 2000
+    min_wait = 5000
+    max_wait = 9000

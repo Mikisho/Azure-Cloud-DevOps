@@ -76,6 +76,9 @@ The output should look similar to this:
   ![log output img file](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/log_output.JPG)
 
 > 
+### Locust
+
+![Locust](https://github.com/Mikisho/Azure-Cloud-DevOps/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/Screenshots/Locust.JPG)
 
 ## Enhancements
 
@@ -84,6 +87,6 @@ The output should look similar to this:
 
 ## Demo 
 
-[Demo](https://youtu.be/l_j_2wsjkWg)
+[Demo](https://youtu.be/_Zw-ruXbTO0)
 
 
